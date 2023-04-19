@@ -1,8 +1,30 @@
 html {
     font-family: Open Sans, sans-serif;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
 
+.wrapper {
+    max-width: 1280px;
+}
 
+#work {
+    text-align: center;
+}
+#work div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#work div img {
+    max-height: 20rem;
+}
+
+span > img {
+width: 2rem;
+}
 
 footer {
     background-color: black;
